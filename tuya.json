@@ -1,0 +1,25 @@
+{
+  "mqtt": {
+    "host": "127.0.0.1",
+    "//port": 1883,
+    "//username": "",
+    "//password": "",
+    "root": "tuya",
+    "retainState": true
+  },
+  "devices": [
+    {
+      "name": "test1",
+      "id": "bebebe",
+      "key": "bububu",
+      "ip": "bababa",
+      "def": {
+        "state": 1,
+        "voltage": {
+          "dps": 20,
+          "fn": "Math.trunc(x / 10)"
+        }
+      }
+    }
+  ]
+}

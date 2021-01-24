@@ -1,0 +1,13 @@
+{
+  "name": "tuya-mqtt",
+  "version": "0.0.1",
+  "description": "Expose TUYA devices to MQTT",
+  "author": "Vladimir Dronnikov <dronnikov@gmail.com>",
+  "private": false,
+  "license": "LicenseRef-LICENSE",
+  "scripts": {},
+  "dependencies": {
+    "mqtt": "^4.2.6"
+  },
+  "devDependencies": {}
+}
